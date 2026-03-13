@@ -3,7 +3,7 @@ const express = require('express');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const wsUrl = 'wss://novoga.sb21.net/?token=32-5a4ff6e0fb3f0d90ddf1e9c438c3cb59';
+const wsUrl = 'wss://novoga.sb21.net/?token=32-8f87cc76330d993b18a3cda1a79073f0';
 
 // Biến lưu trữ
 let md5_truoc = null;
